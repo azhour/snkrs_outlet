@@ -43,3 +43,5 @@ $produit = $feature[$_GET['id']];
   echo "<li>$size</li>";
 }?>
 </ul>
+
+<?php includes('footer.php');
