@@ -22,11 +22,11 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <div class="products">
-    <a href="products.php">Détails de la chaussure</a>
-    
-    <h2></h2>
-  </div>
+
+  <?php include('header.php');
+  include('card.php');
+  ?>
+
 
 
     <?php include("footer.php"); ?>

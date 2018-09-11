@@ -1,3 +1,9 @@
+
+<?php include('header.php');
+?>
+
+
+
 <?php
 $feature = [
   ['picture' => 'airmax.jpg',
