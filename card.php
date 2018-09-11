@@ -1,25 +1,51 @@
 <?php
 
-$cardTab = [
+$feature = [
 [
+  'src' => "img/converse.jpg",
   'marque' => 'Converse',
-  'prix' => '45€',
+  'price' => '45€',
+  'size' => ['36', '37', '38', '39', '40', '41', '42', '43'],
+  'colour' => ['red', 'black', 'white', 'blue']
 ],
 [
+  'src' => "img/vans.jpg",
   'marque' => 'Vans',
-  'prix' => '60€',
+  'price' => '60€',
+  'size' => ['36', '37', '38', '39', '40', '41', '42', '43'],
+  'colour' => ['lime', 'black', 'white', 'blue']
 ],
 [
-  'marque' => 'Nike',
-  'prix' => '80€',
+  'src' => 'img/nike.jpg',
+  'marque' => 'Nike Air Max 90/1',
+  'price' => '50€',
+  'size' => ['36', '37', '38', '39', '40', '41', '42', '43'],
+  'colour' => ['red', 'black', 'white', 'gold']
 ],
 [
-  'marque' => 'Adidas',
-  'prix' => '50€',
+  'src' => "img/reebok.jpg",
+  'marque' => 'Reebok',
+  'price' => '50€',
+  'size' => ['36', '37', '38', '39', '40', '41', '42', '43'],
+  'colour' => ['red', 'black', 'white', 'gold']
 ]
 ];
 
-foreach ($cardTab as $value) {
-  echo $value;
-}
- ?>
+?>
+
+<div class="container">
+<div class="col-12 m-auto row">
+
+<?php
+foreach ($feature as $key => $value)
+{ ?>
+  <div class="col-sm-10 col-md-6 col-lg-3 card">
+        <a href="products.php?&id=<?= $key ?>"><img class="img" src="<?= $value['src'] ?>" alt="Card image cap"/></a>
+        <div class="d-flex d-row text-center card-body">
+          <p class="pr-2 card-text"> <?= $value['marque'] ?></p>
+          <p class="pl-2 card-text"> <?= $value['price'] ?></p>
+        </div>
+      </div>
+<?php } ?>
+</div>
+</div>
