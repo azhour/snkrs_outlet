@@ -94,7 +94,9 @@ footer {
   background-color: #212529;
 }
 
-
+.card > a {
+  text-decoration: none;
+}
 
 
 
@@ -199,17 +201,21 @@ footer {
 @media (min-width: 768px) {}
 
 @media (min-width: 992px) {
-  .menu {
+
+  .menu-header {
     background-color: #22313f;
     text-align: center;
   }
 
-  .logo {
-    margin: auto;
+  .logo-header {
+    /* margin: auto; */
+    left: 45%;
+    position: relative;
   }
 
-  .menu>ul>li {
-    width: 20%;
+  .menu-header>ul>li {
+    max-width: 1200px;
+    width: 15%;
     display: inline-block;
   }
 
@@ -223,6 +229,7 @@ footer {
     color: white;
     text-decoration: none;
   }
+
 }
 
 @media (min-width: 1200px) {}
