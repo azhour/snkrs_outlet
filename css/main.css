@@ -94,8 +94,13 @@ footer {
   background-color: #212529;
 }
 
+.iconeSocial{
+  width: 10%;
+}
 
-
+.social{
+  font-size: 10px;
+}
 
 
 
