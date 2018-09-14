@@ -94,10 +94,20 @@ footer {
   background-color: #212529;
 }
 
+<<<<<<< HEAD
 .card > a {
   text-decoration: none;
 }
 
+=======
+.iconeSocial{
+  width: 10%;
+}
+
+.social{
+  font-size: 10px;
+}
+>>>>>>> b315743f83319073103a205d124bd18acecd30f0
 
 
 
