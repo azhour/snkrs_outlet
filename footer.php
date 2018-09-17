@@ -1,8 +1,16 @@
+
+<footer class="row d-flex flex-row justify-content-between col-sm-12 col-md-12 col-lg-12">
+  <img class="col-2" src="img/logo.png" alt="logo">
+  <div class="social col-3">
+    <p class="social py-3">Suivez-nous:</p>
+    <div class="imageSocial row col-9">
+
 <footer class="row d-flex flex-row justify-content-between container">
   <img class="col-4" src="img/logo.png" alt="logo">
   <div class="social col-4">
     <p class="social">Suivez-nous:</p>
     <div class="imageSocial row">
+
 
 
     <img src="img/facebook.png" alt="icone facebook" class="iconeSocial col-6">

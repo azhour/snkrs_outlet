@@ -16,6 +16,13 @@
   <link rel="stylesheet" href="css/main.css">
   </head>
 
+
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+
 <body>
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -23,11 +30,25 @@
 
   <!-- Add your site or application content here -->
 
+
+
+  <!-- Add your site or application content here -->
+
   <?php include('header.php');
   ?>
+  <?php
+   inlude('../snkrs/divers.php');
+  try
+  {
+      $bdd = new PDO('mysql:host=localhost;dbname=snkrs_outlet;charset=utf8', 'root', $mdp);
+  }
+  catch (Exception $e)
+  {
+          die('Erreur : ' . $e->getMessage());
+  }
+  ?>
 
-
-<?php
+<?php   // array of products
 $feature = [
   ['picture' => 'airmax.jpg',
   'name' => 'Nike Air Max 90/1',
@@ -69,3 +90,4 @@ $produit = $feature[$_GET['id']];
 </ul>
 
 <?php includes('footer.php');
+?>

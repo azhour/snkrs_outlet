@@ -1,10 +1,10 @@
-<?php // FIXME:  ?><!doctype html>
-<html class="no-js" lang="fr">
+<!doctype html>
+<html class="no-js" lang="">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Accueil</title>
+  <title></title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -24,13 +24,19 @@
   <!-- Add your site or application content here -->
 
   <?php include('header.php');
-  include('card.php');  // card of products
+
   ?>
 
+  <form method="post" action="admin.php">
+  <p>Se connecter</p>
+  <label for="pseudo">Pseudo</label>
+  <input id="pseudo" type="text" name="pseudo" value="" required><br/>
 
+  <label for="password">Mot de passe </label>
+  <input id="password" type="password" name="password" required><br />
 
-
-
+  <input type="submit" name="Envoyer" value="Envoyer">
+  </form>
 
 
     <?php include("footer.php"); ?>
