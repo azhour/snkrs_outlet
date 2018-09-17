@@ -1,5 +1,5 @@
 <?php // FIXME:  ?><!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -24,9 +24,9 @@
   <!-- Add your site or application content here -->
 
   <?php include('header.php');
-  include('card.php');
+  include('card.php');  // card of products
   ?>
-  
+
 
 
 
