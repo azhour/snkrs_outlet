@@ -1,8 +1,18 @@
+<<<<<<< HEAD
 <footer class="row d-flex flex-row justify-content-between col-sm-12 col-md-12 col-lg-12">
   <img class="col-2" src="img/logo.png" alt="logo">
   <div class="social col-3">
     <p class="social py-3">Suivez-nous:</p>
     <div class="imageSocial row col-9">
+=======
+<footer class="row d-flex flex-row justify-content-between container">
+  <img class="col-4" src="img/logo.png" alt="logo">
+  <div class="social col-4">
+    <p class="social">Suivez-nous:</p>
+    <div class="imageSocial row">
+
+
+>>>>>>> bafb1c2eef4e29c9d332a94675a110f2ce1fa117
     <img src="img/facebook.png" alt="icone facebook" class="iconeSocial col-6">
     <img src="img/twitter.png" alt="icone twitter" class="iconeSocial col - 6">
     </div>
