@@ -44,6 +44,7 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#">Mon compte</a>
         </li>
       </ul>
     </div>
@@ -58,6 +59,7 @@
       <li><a class="test" href="#">Fille </a></li>
       <li><a class="test" href="#">Garçon </a></li>
       <li><a class="test" href="#">Contact </a></li>
+      <li><a class="test" href="login.php">Mon compte</a></li>
     </ul>
   </div>
 </header>
