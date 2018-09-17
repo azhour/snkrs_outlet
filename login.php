@@ -1,10 +1,10 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Connexion</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -26,17 +26,18 @@
   <?php include('header.php');
 
   ?>
-
-  <form method="post" action="admin.php">
-  <p>Se connecter</p>
-  <label for="pseudo">Pseudo</label>
+  <div class="row">
+  <form  class="border border-success mx-auto col-4 my-5 rounded " method="post" action="admin.php">
+  <p class="text-center font-weight-bold">Connexion</p>
+  <label class="ml-5" for="pseudo">Pseudo</label>
   <input id="pseudo" type="text" name="pseudo" value="" required><br/>
 
-  <label for="password">Mot de passe </label>
+  <label class="ml-2" for="password">Mot de passe </label>
   <input id="password" type="password" name="password" required><br />
 
-  <input type="submit" name="Envoyer" value="Envoyer">
+  <button type="submit" class="btn btn-success ml-5 my-3">Submit</button>
   </form>
+</div>
 
 
     <?php include("footer.php"); ?>
