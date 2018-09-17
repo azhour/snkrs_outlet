@@ -1,13 +1,40 @@
-<?php if (isset($_POST['pseudo']) AND isset($_POST['password']) AND !empty($_POST['pseudo']) AND !empty($_POST['password']) ){
-  echo '
-   <form method="post" action="">
-  <p>Ajouter un produit</p>
-  <label for="NameProduct">Nom du produit</label>
-  <input id="pseudo" type="text" name="pseudo" value="" required><br/>
+<?php
+  include('../divers/divers2.php');
+try
 
-  <label for="password">Mot de passe </label>
-  <input id="password" type="password" name="password" required><br />
+{
 
-  <input type="submit" name="Envoyer" value="Envoyer">
-  </form>';
-} ?>
+    $bdd = new PDO('mysql:host=localhost;dbname=snkrs_outlet;charset=utf8', 'root', $mdp);
+
+}
+
+catch(Exception $e)
+
+{
+
+        die('Erreur : '.$e->getMessage());
+
+}
+
+
+
+$reponse = $bdd->query('SELECT password FROM admin WHERE pseudo=\'admin\'');
+
+$donnees = $reponse->fetch();
+
+// var_dump(password_hash($_POST['password'], PASSWORD_DEFAULT));
+// var_dump($donnees['password']);
+if (password_verify($_POST['password'], $donnees['password'])) {
+    echo 'Bienvenue';
+} else {
+  echo 'accès refusé';
+}
+
+
+
+
+
+$reponse->closeCursor();
+
+
+?>
