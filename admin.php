@@ -1,16 +1,16 @@
 <?php
-
-  // include('../divers/divers2.php');
+  include('../divers/divers2.php');
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=snkrs_outlet;charset=utf8', 'root', '');
+    $bdd = new PDO('mysql:host=localhost;dbname=snkrs_outlet;charset=utf8', 'root', $mdp);
 }
+
 catch(Exception $e)
 {
         die('Erreur : '.$e->getMessage());
 }
 
-
+// to recuperate password
 $reponse = $bdd->query('SELECT password FROM admin WHERE pseudo=\'admin\'');
 
 $donnees = $reponse->fetch();

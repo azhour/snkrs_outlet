@@ -1,9 +1,3 @@
-<!-- <footer class="row d-flex flex-row justify-content-between container">
-<img class="col-4" src="img/logo.png" alt="logo">
-<div class="social col-4">
-<p class="social">Suivez-nous:</p>
-<div class="imageSocial row"> -->
-
 <footer class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-row justify-content-between">
     <a href="index.php"><img class="col-lg-2 logo-footer" src="img/logo.png" alt="logo"></a>
   <div class="social">
