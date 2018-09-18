@@ -88,27 +88,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-footer {
-  color: white;
-  background-color: #212529;
-}
-
 .card > a {
   text-decoration: none;
 }
 
-.iconeSocial{
-  width: 10%;
+.logo-footer {
+display: none;
 }
 
-.social{
-  font-size: 10px;
+footer {
+  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: #212529;
+  position: absolute;
+  bottom: 0;
 }
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -237,6 +232,21 @@ footer {
     text-decoration: none;
   }
 
+  .logo-footer {
+    position: absolute;
+    top: -20%;
+  }
+  .social{
+    font-size: 15px;
+    margin-top: 2%;
+  }
+  .iconeSocial{
+    width: 40%;
+    padding-left: 1%;
+    position: relative;
+    left: 5%;
+    top: -35%;
+  }
 }
 
 @media (min-width: 1200px) {}
