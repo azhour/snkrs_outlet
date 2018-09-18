@@ -27,7 +27,7 @@
   <?php include('header.php');
 
   ?>
-  <div class="row">
+  <div class="row m-auto">
   <form  class="border border-success mx-auto col-4 my-5 rounded " method="post" action="admin.php">
   <p class="text-center font-weight-bold">Connexion</p>
   <label class="ml-5" for="pseudo">Pseudo</label>
