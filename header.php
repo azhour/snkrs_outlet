@@ -1,3 +1,4 @@
+<!-- Header Mobile and Tablet -->
 <header>
   <nav class="col-12 col-sm-12 col-md-12 d-lg-none  navbar navbar-expand-lg navbar-light bg-light">
     <a class="" href="index.php"><img class="logo" src="img/logo.png" alt="logo"></a>
@@ -7,33 +8,27 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Homme</a>
+          <a class="nav-link" href="index.php">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Femme</a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Fille</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Garçon</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Mon compte</a>
+          <a class="nav-link" href="login.php">Mon compte</a>
         </li>
       </ul>
     </div>
   </nav>
 
-  <a href="index.php"><img class="d-none d-sm-none d-md-none d-lg-block logo" src="img/logo.png" alt="logo"></a>
-  <div class= "d-sm-none d-md-none d-lg-block col-lg-12 menu">
+<!-- Header desktop -->
+<div class="header-desktop">
+<a class="logo-link" href="index.php"><img class="d-none d-sm-none d-md-none d-lg-block logo-header" src="img/logo.png" alt="logo"></a>
+  <div class= "d-sm-none d-md-none d-lg-block col-lg-12 menu-header">
     <ul class="d-none d-sm-none d-md-none d-lg-block">
-      <li><a class="test" href="#">Homme </a></li>
-      <li><a class="test" href="#">Femme </a></li>
-      <li><a class="test" href="#">Fille </a></li>
-      <li><a class="test" href="#">Garçon </a></li>
+      <li><a class="test" href="index.php">Accueil </a></li>
+      <li><a class="test" href="#">Contact </a></li>
       <li><a class="test" href="login.php">Mon compte</a></li>
-
     </ul>
   </div>
-<header>
+</div>
+</header>

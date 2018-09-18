@@ -1,20 +1,10 @@
-
-<footer class="row d-flex flex-row justify-content-between col-sm-12 col-md-12 col-lg-12">
-  <img class="col-2" src="img/logo.png" alt="logo">
-  <div class="social col-3">
-    <p class="social py-3">Suivez-nous:</p>
-    <div class="imageSocial row col-9">
-
-<footer class="row d-flex flex-row justify-content-between container">
-  <img class="col-4" src="img/logo.png" alt="logo">
-  <div class="social col-4">
+<footer class="col-12 col-sm-12 col-md-12 col-lg-12 d-flex flex-row justify-content-between">
+    <a href="index.php"><img class="col-lg-2 logo-footer" src="img/logo.png" alt="logo"></a>
+  <div class="social">
     <p class="social">Suivez-nous:</p>
-    <div class="imageSocial row">
-
-
-
-    <img src="img/facebook.png" alt="icone facebook" class="iconeSocial col-6">
-    <img src="img/twitter.png" alt="icone twitter" class="iconeSocial col - 6">
+    <div class="imageSocial">
+      <img src="img/facebook.png" alt="icone facebook" class="iconeSocial">
+      <img src="img/twitter.png" alt="icone twitter" class="iconeSocial">
     </div>
   </div>
 </footer>
